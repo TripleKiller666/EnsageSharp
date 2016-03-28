@@ -242,7 +242,7 @@
                     return;
                 }
 
-                Orbwalking.Orbwalk(this.Target, followTarget: Variables.MenuManager.MoveMode == 1);
+                Orbwalking.Orbwalk(this.Target);
                 return;
             }
 
